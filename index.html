@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
+
 <body>
 	<h1>Shopping list</h1>
+
+	<input name="item" rows='1' cols="15" class="itemInput" placeholder="Enter an item to add"></input>
+	<div>
+		<h5> Update item price </h5>
+		<label for="exampleEmailInput">Item cost</label>
+		<input class="u-full-width priceInput" type="number" placeholder="Enter a price">
+	</div>
+	<div class="center"> <button class="button-primary addButton" type="button" name="button">Add</button>
+	</div>
+	<div class="col-12 center">
+		<span class="displayPanel">
+
+		</span>
+		
+
+	</div>
+	<span class="screen">
+
+	</span>
+
+	<div class="six columns">
+		<h5>Update Budget</h5>
+
+		<label for="">Maximum cost</label>
+		<input class="u-full-width budgetInput" type="number" placeholder="">
+		<button class="button-primary updateSettings" type="button" name="button">Update</button>
+
+	</div>
+	<script src="shopping-list.js" charset="utf-8"></script>
+	<script src="shopping-list-dom.js" charset="utf-8"></script>
 </body>
+
 </html>
